@@ -18,3 +18,35 @@ Template: Divi
     font-weight: 900;
     padding-left: 160px;
 }
+/* form contact us page */
+ 
+
+input.text, input.title, input[type=email], input[type=password], input[type=tel], input[type=text], select, textarea {
+    padding: 2px;
+    border: 1px solid #bbb;
+    color: #4e4e4e;
+    background-color: #fff;
+    width: 500px;
+    height: 60px;
+    border-radius: 6px;
+    border: none;
+}
+
+#wpcf7-f186-p9-o1 input[type="submit" i] {
+    -webkit-appearance: push-button;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: #29cb8b;
+    box-sizing: border-box;
+    padding: 16px;
+    border-width: 2px;
+    margin-left: 70%;
+    border:none;
+    
+}
