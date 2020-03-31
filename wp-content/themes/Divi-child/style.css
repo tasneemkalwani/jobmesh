@@ -10,3 +10,11 @@ License: GNU General Public License v2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Template: Divi
 */
+
+
+.footer-widget {
+    color: #d9ad1e;
+    font-size: 42px;
+    font-weight: 900;
+    padding-left: 160px;
+}
