@@ -11,15 +11,40 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Template: Divi
 */
 
+/******************************************Home Page Styling Start********************************************/
+nav#top-menu-nav {
+    margin-top: 7px;
+}
 
+span#et_search_icon::before {
+    padding-top: 7px;
+    margin-left: 80px;
+}
+
+span#et_search_icon::after {
+    content: 'Search';
+    color: white;
+    background: #d9ad1e;
+    padding: 10px 30px;
+    border-radius: 18px;
+    border: 1px solid white;
+}
+
+/******************************************Home Page Styling End********************************************/
+
+
+/******************************************Footer Styling Start********************************************/
 .footer-widget {
     color: #d9ad1e;
     font-size: 42px;
     font-weight: 900;
     padding-left: 160px;
 }
-/* form contact us page */
- 
+/******************************************Footer Styling End**********************************************/
+
+
+
+/*************************************Form Contact Us Styling Start*****************************************/
 
 input.text, input.title, input[type=email], input[type=password], input[type=tel], input[type=text], select, textarea {
     padding: 2px;
@@ -50,3 +75,5 @@ input.text, input.title, input[type=email], input[type=password], input[type=tel
     border:none;
     
 }
+
+/***************************************Form Contact Us Styling End******************************************/
