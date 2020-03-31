@@ -8,4 +8,7 @@ function my_theme_enqueue_styles() {
  
 }
 
+//Add Excerpts to Pages
+add_post_type_support('jobportal', 'excerpt');
+
 ?>
